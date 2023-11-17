@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nav</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    </head>
+<body>
+    <div class="whole">
+        <div class="menu" id="draggable">
+            <div class="toggle" title="Menu"><ion-icon name="grid-outline"></ion-icon></div>
+            <li style="--i:0;">
+                <a href="#home" title="Home"><ion-icon name="home-outline"></ion-icon></a>
+            </li>
+            <li style="--i:1;">
+                <a href="#about" title="About me"><ion-icon name="person-outline"></ion-icon></a>
+            </li>
+            <li style="--i:2;">
+                <a href="#education" title="Education"><ion-icon name="book-outline"></ion-icon></a>
+            </li>
+            <li style="--i:3;">
+                <a href="#skills" title="Skills"><ion-icon name="laptop-outline"></ion-icon></a>
+            </li>
+            <li style="--i:4;">
+                <a href="#projects" title="Projects"><ion-icon name="folder-open-outline"></ion-icon></a>
+            </li>
+            <li style="--i:5;">
+                <a href="#experiences" title="Experiences"><ion-icon name="bulb-outline"></ion-icon></a>
+            </li>
+        </div>
+    
+      <div class="contactNav">
+        <a class="button" onclick="copyText1()">
+            <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+            </div>
+            <span id="myText" style="font-size: large;">0143966422</span>
+        </a>
+
+        <a class="button" onclick="copyText2()">
+            <div class="icon">
+                <i class="far fa-envelope"></i>
+            </div>
+            <span id="myText1">limwuanluabc@gmail.com</span>
+        </a>
+
+        <a class="button" onclick="copyText3()">
+            <div class="icon">
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <span id="myText2">www.linkedin.com/in/limwuanlu</span>
+        </a>
+    </div>
+
+        <section class="home" id="home">
+
+            <div class="limwuanlu">
+                <h2>Lim</h2>
+                <h3>Wuan Lu</h3>
+            </div>
+
+            <div class="background"></div>
+            <div class="background_sec"></div>
+
+            <div class="slide-container">
+                <div class="mySlides fade">
+                  <img src="images/myphoto.png">
+                </div>
+                
+                <div class="mySlides fade" style="height: 30% !important;">
+                  <img src="images/myphoto2.png">
+                </div>
+                
+                <!-- <div class="mySlides fade">
+                  <img src="myPhoto3.png">
+                </div> -->
+            </div>
+
+            <div class="description">
+                <p>"Dynamic IT fresh graduate with a passion for web and software development. Proficient in front-end and back-end technologies, with hands-on experience in HTML, CSS, JavaScript, and
+                    familiarity with various programming languages. Demonstrated ability to collaborate effectively in
+                    team environments and a keen eye for detail in designing user-friendly interfaces. Eager to
+                    leverage my technical skills and enthusiasm for innovation to contribute to a fast-paced IT team."
+                </p>
+
+                <a href="pdf/resume.pdf" target="_blank">Resume</a>
+            </div>
+
+            <div class="IT">
+                <h2>INFORMATION TECHNOLOGY</h2>
+            </div>
+            
+            
+        </section>
+
+        <section class="about" id="about">
+            <h1 class="leftitem">About Me</h1>
+
+            <div class="grid-container">
+                <div class="hobby">
+                    <h2>Hobby & Interest</h2>
+                    <div class="hobbies">
+                        <div class="hobbyTitle">
+                            <img src="images/illustration.png">
+                            <h2>Illustration</h2>
+                            <a href="https://www.behance.net/lu7u" target="_blank">Click to see more</a>
+                        </div>
+                        
+                        <p>As a hobby, I enjoy exploring different illustration techniques, including digital and traditional methods. This creative outlet not only helps me express my imagination but also sharpens my attention to detail and strengthens my problem-solving skills.</p>
+                    </div>
+
+                    <div class="hobbies">
+                        <div class="hobbyTitle">
+                            <img src="images/project.png">
+                            <h2>Personal Coding Projects</h2>
+                            
+                        </div>
+                        <p>As an enthusiastic coder, I enjoy dedicating my free time to building various personal projects that allow me to explore new technologies and enhance my programming skills. Some of the projects include CSS animation, portfolio, calculator using JS, and so on.</p>
+                    </div>
+
+                    <div class="hobbies">
+                        <div class="hobbyTitle">
+                            <img src="images/finance.png" style="margin-top: 1%;">
+                            <h2>Financial Management</h2>
+                            
+                        </div>
+                        <p>I have a keen interest in understanding and analyzing financial markets, investment strategies, and risk management techniques. Additionally, I am committed to enhancing my knowledge of financial instruments, portfolio management, and financial planning through continuous learning and independent research.</p>
+                    </div>
+                </div>
+                <div class="languages">
+                    <h2>Languages & Soft Skills</h2>
+                    <div class="container">
+                        <div class="skill-box">
+                            <span class="title">English</span>
+                            <div class="skill-bar">
+                                <span class="skill-per english">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Malay</span>
+                            <div class="skill-bar">
+                                <span class="skill-per malay">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Mandarin</span>
+                            <div class="skill-bar">
+                                <span class="skill-per mandarin">
+                                    <span class="tooltip">100%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Cantonese</span>
+                            <div class="skill-bar">
+                                <span class="skill-per cantonese">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="softskill">
+                    <div class="softskills">
+                        <div class="progress-bar-container one">
+                            <div class="progress-bar communication">
+                              <progress id="communication" min="0" max="100" value="92"></progress>
+                            </div>
+                            <h2 class="marginleft">
+                                <label for="communication">Communication Skill</label>
+                            </h2>
+                        </div>
+                          
+                        <div class="progress-bar-container two">
+                            <div class="progress-bar problemsolving">
+                              <progress id="problemsolving" min="0" max="100" value="87"></progress>
+                            </div>
+                            <h2 class="marginleft">
+                              <label for="problemsolving">Problem-Solving Skill</label>
+                            </h2>
+                        </div>
+                        
+        
+                        <div class="progress-bar-container three">
+                            <div class="progress-bar teamwork">
+                              <progress id="teamwork" min="0" max="100" value="73"></progress>
+                            </div>
+                            <h2>
+                              <label for="teamwork" style="color: #fff;">Teamwork & Collaboration Skill</label>
+                            </h2>
+                        </div>
+        
+                        <div class="progress-bar-container four">
+                            <div class="progress-bar adaptability">
+                              <progress id="adaptability" min="0" max="100" value="90"></progress>
+                            </div>
+                            <h2 class="softText">
+                              <label for="adaptability" style="color: #fff;">Adaptability & Continuous Learning</label>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section class="education" id="education">
+            <h1>My Education</h1>
+            <div class="twoDiv" id="twoDiv">            
+                <div class="foundation" id="foundation">
+                    <div class="foundy">
+                        <img src="images/utplogo.png">
+                        <h3>Foundation in Business Management and Computing <br> Sept 2019 - Mar 2020</h3>
+                        <div class="achievement">
+                            <h2 style="font-weight: bold; font-size: 1.5rem;">Achievements:</h2>
+                            <h2>- CGPA 3.84</h2>
+                            <h2>- Dean's List for all semester</h2>
+                            <h2>- <b>Participated in 'Oh My Code Competition'</b>, I led a team in developing a comprehensive web application for recycling <br> purposes and the project is built by using Microsoft Visual Basic.</h2>
+                            <h2>- <b>Involved in the event of Foundation Students Completion Ceremony</b>, through active participation, I have successfully <br> acquired a diverse set of skills such as leadership, communication, problem-solving, technical proficiency, and so on.</h2>
+                            <h2>- <b>Participated in Foundy Sport</b>, the sports I have played are Netball and Handball.</h2>
+                            <h2>- <b>Involved in Orphanage Visit Voluntary Project</b>, I developed a deeper understanding of empathy and compassion, <br> while fostering meaningful connections with the children. This initiative not only enhanced  my interpersonal and <br>communication skills but also instilled in me a profound sense of social responsibility and the importance of community <br> outreach.</h2>
+                        </div>
+                        <a href="pdf/foundytranscript.pdf" target="_blank">Transcript</a>
+                    </div>
+                </div>
+
+                <div class="degree" id="degree">
+                    <div class="degreeIT">
+                        <img src="images/utplogo.png">
+                        <h3>Bachelor of Information Technology(Hons) <br> May 2020 - Aug 2023 <br> Major in Software Quality, Minor in Financial Management</h3>
+                        
+                        <div class="achievement">
+                            <h2 style="font-weight: bold; font-size: 1.5rem;">Achievements:</h2>
+                            <h2>- First Class Honours</h2>
+                            <h2>- CGPA 3.80</h2>
+                            <h2>- Dean's List for all semester</h2>
+                            <h2>- JPA Scholarship Holder</h2>
+                            <h2>- <b>Winner of WebX Front-end Web Development Competition 2020</b>,  I had the opportunity to demonstrate my proficiency <br> in coding, design, and problem-solving. Leveraging my expertise in HTML, CSS, JavaScript, and other relevant technologies</h2>
+                            <h2>- <b>Successfully created Front-end Design for Safety App</b>, by collaborating closely with the development team and <br> incorporating user feedback, I crafted an intuitive and user-friendly interface that prioritized  seamless navigation and <br> accessibility. </h2>
+                            <h2>- <b>Final Year Project</b>, a front-end development built by using Spring Boot and React Native framework.</h2>
+                        </div>
+                        <a href="pdf/Degree_Transcript.pdf" target="_blank">Academic Transcript</a>
+                        <a href="pdf/Degree_Cert.pdf" target="_blank">Degree Certificate</a>
+                    </div>
+                   
+                </div>
+
+            </div>  
+        </section>
+        <section class="skills" id="skills">
+            <h1>My Skills</h1>
+            <div class="slideShow">
+                <div class="pages firstPage">
+                    <h2 class="skillsTitle">Programming Languages</h2>
+                    <div class="content">
+                        <img class="image" src="images/htmllogo.png">
+                        <h2>HTML</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/css.png">
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/js.png">
+                        <h2>JavaScript</h2>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <img class="image" src="images/java.png">
+                        <h2>Java</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/sql.png">
+                        <h2>SQL</h2>
+                    </div>
+                </div>
+
+                <div class="pages secondPage">
+                    <h2 class="skillsTitle">Programming Languages</h2>
+                    <div class="content">
+                        <img class="image" src="images/jsp.png">
+                        <h2>JSP</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/php.png">
+                        <h2>PHP</h2>
+                    </div>
+                </div>
+
+                <div class="pages thirdPage">
+                    <h2 class="skillsTitle">IDE</h2>
+                    <div class="content">
+                        <img class="image" src="images/visualstudiocode.png">
+                        <h2>Visual Studio Code</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/eclipse.png">
+                        <h2>Eclipse</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/androidstudio.png">
+                        <h2>Android Studio</h2>
+                    </div>
+                </div>
+
+                <div class="pages fourthPage">
+                    <h2 class="skillsTitle">Frameworks</h2>
+                    <div class="content">
+                        <img class="image" src="images/spring.png">
+                        <h2>Spring</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/angularjs.png">
+                        <h2>AngularJS</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/reactnative.png">
+                        <h2>React Native</h2>
+                    </div>
+                </div>
+
+                <div class="pages fifthPage">
+                    <h2 class="skillsTitle">Additional</h2>
+                    <div class="content">
+                        <img class="image" src="images/mysql.png">
+                        <h2>MySQL</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/git.png">
+                        <h2>Git</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/figma.png">
+                        <h2>Figma</h2>
+                    </div>
+                    <div class="content" style="margin-right: 0 !important;">
+                        <img class="image" src="images/frontenddvp.jpg">
+                        <h2>Frontend Development</h2>
+                    </div>
+                    <div class="content">
+                        <img class="image" src="images/frontenddesign.png">
+                        <h2>Web & Software Development</h2>
+                    </div>
+                </div>
+                <div class="pages sixthPage">
+                    <h2 class="skillsTitle">Additional</h2>
+                    <div class="content" style="margin-left: 0 !important; margin-top: 7% !important;">
+                        <img class="image" src="images/databasemgn.jpg">
+                        <h2>Database Management</h2>
+                    </div>
+                    <div class="content" style="margin-left: 0 !important;">
+                        <img class="image" src="images/softwarequality.png">
+                        <h2>Software Quality</h2>
+                    </div>
+                    <div class="content" style="margin-right: 0 !important; margin-left: 0 !important;">
+                        <img class="image" src="images/oop.png">
+                        <h2>Object-oriented Programming</h2>
+                    </div>
+                    <div class="content" style="margin-right: 0 !important; margin-left: 0 !important;">
+                        <img class="image" src="images/sre.jpg">
+                        <h2>Software Requirement Engineering</h2>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+
+            <div class="dotSlide">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+            
+        </section>
+        <section class="projects" id="projects">
+            <div class="personalProjects">
+                <div class="main-text">
+                    
+                    <h1>My Projects</h1>
+
+                    <div class="projectContent">
+                        <div class="row">
+                            <img src="images/webandmobiledevelopment.jpg">
+                            <div class="projectLayer">
+                                <h5>Web & Mobile Development</h5>
+                                <p>Final Year Project</p>
+                                <a href="pdf/LIM WUAN LU_19000420_DISSERTATION.pdf" target="_blank"><i class='bx bx-link-enternal' style="color: aliceblue;"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="images/dms.jpg">
+                            <div class="projectLayer">
+                                <h5>Web Development</h5>
+                                <p>Document Management System</p>
+                                <a href="pdf/SIP_REPORT_Lim Wuan Lu_19000420.pdf" target="_blank"><i class='bx bx-link-enternal' style="color: aliceblue;"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="images/iot.png">
+                            <div class="projectLayer">
+                                <h5>IoT Project</h5>
+                                <p>TrashAI</p>
+                                <a href="https://www.tinkercad.com/things/9jtkdNJxoxx" target="_blank"><i class='bx bx-link-enternal' style="color: aliceblue;"></i></a>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+                            <img src="images/appdevelopment.jpg">
+                            <div class="projectLayer">
+                                <h5>Mobile App Development</h5>
+                                <p>EaseMe Safety App</p>
+                                <a href="https://www.figma.com/file/ezGSTmbtg5rkR1VNXx4J4g/EaseMe?type=design&node-id=0%3A1&mode=design&t=o2ipfmh8BeU0rSxQ-1" target="_blank"><i class='bx bx-link-enternal' style="color: aliceblue;"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="images/uiux.jpg">
+                            <div class="projectLayer">
+                                <h5>UIUX Design</h5>
+                                <p>Food Web Design</p>
+                                <a href="https://www.figma.com/proto/F1g3bLYyRCX2CHdkATJCSw/%231-Food-Web-Design?node-id=13-122&starting-point-node-id=5%3A4&mode=design&t=8FLub93Xd4UaCtLQ-1" target="_blank"><i class='bx bx-link-enternal' style="color: aliceblue;"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="images/sales.png">
+                            <div class="projectLayer">
+                                <h5>Web Development</h5>
+                                <p>Sales Ordering System</p>
+                                <a href="https://drive.google.com/file/d/1B3o4SmZw8XfMSpbhw-7CzIxHNe1Bu5Fz/view?usp=sharing" target="_blank"><i class='bx bx-link-enternal' style="color: aliceblue;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experiences" id="experiences">
+            <br>
+            <h1 class="experience-text">My Experiences</h1>
+            <div class="timeline">
+                <div class="timelineContainer left-container">
+                    <img src="images/whitecircle.png">
+                    <div class="boxes">
+                        <h2>Sales Executive, Part-time</h2>
+                        <small>2019, Sony Ipoh Parade</small>
+                        <p>Polished strategic business planning skills and persuasion to meet sales goals and company quotas.</p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="timelineContainer right-container">
+                    <img src="images/whitecircle.png">
+                    <div class="boxes">
+                        <h2>Treasurer, Fexes 2019</h2>
+                        <small>2019, Universiti Teknologi PETRONAS</small>
+                        <p>- Collaborated with a dynamic team of 5 students to launch a thriving small business, spearheading the development of innovative branding for our products. <br> 
+                           - Reconciles the event's financial transactions and prepares a comprehensive report for review.</p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="timelineContainer left-container">
+                    <img src="images/whitecircle.png">
+                    <div class="boxes">
+                        <h2>Media Department, Foundation Students Completion Ceremony</h2>
+                        <small>2019, Universiti Teknologi PETRONAS</small>
+                        <p>Craft stunning and captivating ceremony videos and photos, ensuring timely delivery to dazzle and enchant all participants.</p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="timelineContainer right-container">
+                    <img src="images/whitecircle.png">
+                    <div class="boxes">
+                        <h2>Assistant Head of Finance Department, Orphanage Visit Voluntary Project</h2>
+                        <small>2020, Universiti Teknologi PETRONAS</small>
+                        <p>Strategically forecast budgets, actively pursue sponsorships, and meticulously manage financial records to support orphans in overcoming mental and physical health challenges.</p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="timelineContainer left-container">
+                    <img src="images/whitecircle.png">
+                    <div class="boxes">
+                        <h2>Committee of Ceremony & Protocol, Webinar on COVID-19 Vaccination Between Fact & Fiction</h2>
+                        <small>2021, Universiti Teknologi PETRONAS</small>
+                        <p>Expertly orchestrated the event's progression, maintaining clear communication with speakers, ensuring they were constantly updated on the event's agenda and content.</p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="timelineContainer right-container">
+                    <img src="images/whitecircle.png">
+                    <div class="boxes">
+                        <h2>Developer, Internship</h2>
+                        <small>Jan - Aug 2022, Fermion Cyber Village Sdn Bhd</small>
+                        <p>- SIT and UAT support for example, system deployment. <br>
+                           - Assist business team in preparing functional specification and user acceptance testing for example, REST API Documentation. <br>
+                           - Trace logs of issues and provide solutions for example, fix the reported bugs in front-end and back-end of the system. <br>
+                           - Support UI/UX changes for example, collaborate with the design team to implement intuitive UI/UX changes that enhance user experience and streamline navigation. <br>
+                           - Provide valuable team support through expertise in programming languages and frameworks, including Java, JSP, SQL, AngularJS, Angular, and Spring.</p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    
+    <script>
+        const container = document.getElementById("twoDiv");
+        // where "container" is the id of the container
+        container.addEventListener("wheel", function (e) {
+            if (e.deltaY > 0) {
+                container.scrollLeft += 100;
+                e.preventDefault();
+        // prevenDefault() will help avoid worrisome 
+        // inclusion of vertical scroll 
+            }
+            else {
+            container.scrollLeft -= 100;
+            e.preventDefault();
+            }
+        });
+    </script>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+
+<script>
+    let imageIndex = 0;
+    showImage();
+    
+    function showImage() {
+      let i;
+      let image = document.getElementsByClassName("mySlides");
+      for (i = 0; i < image.length; i++) {
+        image[i].style.display = "none";  
+      }
+      imageIndex++;
+      if (imageIndex > image.length) {imageIndex = 1}    
+
+      image[imageIndex-1].style.display = "block";  
+
+      setTimeout(showImage, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    <script src="https://code.jquery.come/jquery-3.5.1.js"></script>
+    <script src="circle-progress.js"></script>
+      
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    
+
+
+        <script src="portfolio.js"></script>
+        <script src="copyContent.js"></script>
+        <script src="onchangeActive.js"></script>
+        <script src="slideShow.js"></script>
+        <script src="startAnimate.js"></script>
+
+</body>
+</html>
