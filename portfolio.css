@@ -107,6 +107,7 @@ ion-icon{
     cursor: pointer;
     margin-top: 18%;
     margin-left: 2%;
+    z-index: 1000;
 }
 
 .contactNav .button{
